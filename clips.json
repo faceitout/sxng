@@ -33,8 +33,8 @@
   "id": 4,
   "title": "See You Again (feat. Charlie Puth)",
   "artist": "Wiz Khalifa, Charlie Puth",
-  "start": 38.95,
-  "end": 53.95,
+  "start": 9.0,
+  "end": 24.0,
   "file": "audio/04.mp3",
   "confidence": "alta",
   "clip_duration": 15.046
@@ -113,10 +113,10 @@
   "id": 12,
   "title": "BAILE INoLVIDABLE",
   "artist": "Bad Bunny",
-  "start": 3.5,
-  "end": 18.5,
+  "start": 72.0,
+  "end": 87.0,
   "file": "audio/12.mp3",
-  "confidence": "baja",
+  "confidence": "alta",
   "clip_duration": 15.046
  },
  {
@@ -133,10 +133,10 @@
   "id": 14,
   "title": "Stand By Me",
   "artist": "Ben E. King",
-  "start": 0.0,
-  "end": 15.0,
+  "start": 15.0,
+  "end": 30.0,
   "file": "audio/14.mp3",
-  "confidence": "media",
+  "confidence": "alta",
   "clip_duration": 15.046
  },
  {

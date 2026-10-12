@@ -281,14 +281,8 @@
   .mt-8 {
     margin-top: calc(var(--spacing) * 8);
   }
-  .mt-10 {
-    margin-top: calc(var(--spacing) * 10);
-  }
   .mb-1 {
     margin-bottom: var(--spacing);
-  }
-  .ml-1 {
-    margin-left: var(--spacing);
   }
   .block {
     display: block;
@@ -425,6 +419,9 @@
   .scale-\[0\.98\] {
     scale: 0.98;
   }
+  .transform {
+    transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,);
+  }
   .animate-pulse {
     animation: var(--animate-pulse);
   }
@@ -463,6 +460,9 @@
   }
   .justify-center {
     justify-content: center;
+  }
+  .gap-1 {
+    gap: var(--spacing);
   }
   .gap-1\.5 {
     gap: calc(var(--spacing) * 1.5);
@@ -627,23 +627,17 @@
   .py-3 {
     padding-block: calc(var(--spacing) * 3);
   }
-  .py-10 {
-    padding-block: calc(var(--spacing) * 10);
+  .py-6 {
+    padding-block: calc(var(--spacing) * 6);
   }
   .pt-5 {
     padding-top: calc(var(--spacing) * 5);
   }
-  .pt-8 {
-    padding-top: calc(var(--spacing) * 8);
+  .pt-6 {
+    padding-top: calc(var(--spacing) * 6);
   }
   .pt-10 {
     padding-top: calc(var(--spacing) * 10);
-  }
-  .pt-12 {
-    padding-top: calc(var(--spacing) * 12);
-  }
-  .pt-20 {
-    padding-top: calc(var(--spacing) * 20);
   }
   .pb-4 {
     padding-bottom: calc(var(--spacing) * 4);
@@ -872,8 +866,8 @@
     .sm\:top-32 {
       top: calc(var(--spacing) * 32);
     }
-    .sm\:mt-10 {
-      margin-top: calc(var(--spacing) * 10);
+    .sm\:mt-6 {
+      margin-top: calc(var(--spacing) * 6);
     }
     .sm\:block {
       display: block;
@@ -902,14 +896,11 @@
     .sm\:p-5 {
       padding: calc(var(--spacing) * 5);
     }
-    .sm\:pt-8 {
-      padding-top: calc(var(--spacing) * 8);
+    .sm\:pt-6 {
+      padding-top: calc(var(--spacing) * 6);
     }
     .sm\:pt-10 {
       padding-top: calc(var(--spacing) * 10);
-    }
-    .sm\:pt-20 {
-      padding-top: calc(var(--spacing) * 20);
     }
     .sm\:text-right {
       text-align: right;
@@ -941,11 +932,11 @@ body {
   color: #121212;
 }
 #root {
-  padding-top: 3rem;
+  padding-top: 0.5rem;
 }
 @media (min-width: 640px) {
   #root {
-    padding-top: 4rem;
+    padding-top: 1rem;
   }
 }
 @property --tw-scale-x {
@@ -962,6 +953,26 @@ body {
   syntax: "*";
   inherits: false;
   initial-value: 1;
+}
+@property --tw-rotate-x {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-rotate-y {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-rotate-z {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-skew-x {
+  syntax: "*";
+  inherits: false;
+}
+@property --tw-skew-y {
+  syntax: "*";
+  inherits: false;
 }
 @property --tw-space-y-reverse {
   syntax: "*";
@@ -1126,6 +1137,11 @@ body {
       --tw-scale-x: 1;
       --tw-scale-y: 1;
       --tw-scale-z: 1;
+      --tw-rotate-x: initial;
+      --tw-rotate-y: initial;
+      --tw-rotate-z: initial;
+      --tw-skew-x: initial;
+      --tw-skew-y: initial;
       --tw-space-y-reverse: 0;
       --tw-border-style: solid;
       --tw-leading: initial;
