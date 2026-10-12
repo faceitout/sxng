@@ -1,0 +1,152 @@
+[
+ {
+  "id": 1,
+  "title": "Take on Me",
+  "artist": "a-ha",
+  "start": 49.0,
+  "end": 64.0,
+  "file": "audio/01.mp3",
+  "confidence": "media",
+  "clip_duration": 15.046
+ },
+ {
+  "id": 2,
+  "title": "Back To Black",
+  "artist": "Amy Winehouse",
+  "start": 61.9,
+  "end": 76.9,
+  "file": "audio/02.mp3",
+  "confidence": "baja",
+  "clip_duration": 15.046
+ },
+ {
+  "id": 3,
+  "title": "Locked out of Heaven",
+  "artist": "Bruno Mars",
+  "start": 70.4,
+  "end": 85.4,
+  "file": "audio/03.mp3",
+  "confidence": "media",
+  "clip_duration": 15.046
+ },
+ {
+  "id": 4,
+  "title": "See You Again (feat. Charlie Puth)",
+  "artist": "Wiz Khalifa, Charlie Puth",
+  "start": 38.95,
+  "end": 53.95,
+  "file": "audio/04.mp3",
+  "confidence": "alta",
+  "clip_duration": 15.046
+ },
+ {
+  "id": 5,
+  "title": "Where Is The Love?",
+  "artist": "Black Eyed Peas",
+  "start": 60.0,
+  "end": 75.0,
+  "file": "audio/05.mp3",
+  "confidence": "media",
+  "clip_duration": 15.046
+ },
+ {
+  "id": 6,
+  "title": "Alors on danse – Radio Edit",
+  "artist": "Stromae",
+  "start": 48.3,
+  "end": 63.3,
+  "file": "audio/06.mp3",
+  "confidence": "media",
+  "clip_duration": 15.046
+ },
+ {
+  "id": 7,
+  "title": "Fireball (feat. John Ryan)",
+  "artist": "Pitbull, John Ryan",
+  "start": 32.0,
+  "end": 47.0,
+  "file": "audio/07.mp3",
+  "confidence": "media",
+  "clip_duration": 15.046
+ },
+ {
+  "id": 8,
+  "title": "Oops!...I Did It Again",
+  "artist": "Britney Spears",
+  "start": 50.2,
+  "end": 65.2,
+  "file": "audio/08.mp3",
+  "confidence": "media",
+  "clip_duration": 15.046
+ },
+ {
+  "id": 9,
+  "title": "Trumpets",
+  "artist": "Jason Derulo",
+  "start": 33.8,
+  "end": 48.8,
+  "file": "audio/09.mp3",
+  "confidence": "baja",
+  "clip_duration": 15.046
+ },
+ {
+  "id": 10,
+  "title": "Yo pensaba que me había tocado Dios",
+  "artist": "Barry B, Carolina Durante",
+  "start": 34.2,
+  "end": 49.2,
+  "file": "audio/10.mp3",
+  "confidence": "baja",
+  "clip_duration": 15.046
+ },
+ {
+  "id": 11,
+  "title": "Loba",
+  "artist": "Shakira",
+  "start": 68.1,
+  "end": 83.1,
+  "file": "audio/11.mp3",
+  "confidence": "baja",
+  "clip_duration": 15.046
+ },
+ {
+  "id": 12,
+  "title": "BAILE INoLVIDABLE",
+  "artist": "Bad Bunny",
+  "start": 3.5,
+  "end": 18.5,
+  "file": "audio/12.mp3",
+  "confidence": "baja",
+  "clip_duration": 15.046
+ },
+ {
+  "id": 13,
+  "title": "Hey Ya!",
+  "artist": "Outkast",
+  "start": 26.8,
+  "end": 41.8,
+  "file": "audio/13.mp3",
+  "confidence": "baja",
+  "clip_duration": 15.046
+ },
+ {
+  "id": 14,
+  "title": "Stand By Me",
+  "artist": "Ben E. King",
+  "start": 0.0,
+  "end": 15.0,
+  "file": "audio/14.mp3",
+  "confidence": "media",
+  "clip_duration": 15.046
+ },
+ {
+  "id": 15,
+  "title": "Thunderstruck",
+  "artist": "AC/DC",
+  "start": 14.5,
+  "end": 29.5,
+  "file": "audio/15.mp3",
+  "confidence": "media",
+  "clip_duration": 15.046
+ }
+]
